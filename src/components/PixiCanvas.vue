@@ -43,7 +43,6 @@ export default {
           // console.log(e);
           const { width, height } = this.pixi.view;
           const down = e.data.originalEvent.buttons > 0 || e.data.pointerType === 'touch';
-          console.log(down);
           if (down > 0) {
             const { x, y } = e.data.global;
             if (x < width) {
